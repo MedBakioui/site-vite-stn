@@ -62,19 +62,19 @@
     --ink-line: rgba(30, 58, 138, 0.12);
     --ink-line-strong: rgba(30, 58, 138, 0.25);
 
-    /* Premium high-contrast cyan/sky-blue for perfect light mode readability */
-    --cyan: #0E7490;
-    --cyan-bright: #0369A1;
-    --cyan-glow: rgba(14, 116, 144, 0.22);
-    --glow-cyan: 0 0 24px rgba(14, 116, 144, 0.25), 0 0 48px rgba(14, 116, 144, 0.12);
+    /* Replace sky blue / cyan with elegant deep navy blue in light mode */
+    --cyan: #1E3A8A;
+    --cyan-bright: #1E40AF;
+    --cyan-glow: rgba(30, 58, 138, 0.15);
+    --glow-cyan: 0 0 24px rgba(30, 58, 138, 0.2), 0 0 48px rgba(30, 58, 138, 0.08);
 
     /* Darker, rich premium blue palette for high contrast in light mode */
-    --blue: #1E3A8A;        /* Deep Navy Blue */
-    --blue-mid: #1E40AF;    /* Deep Royal Blue */
-    --blue-light: #2563EB;  /* Rich Accent Blue */
+    --blue: #0F172A;        /* Very Dark Slate Navy */
+    --blue-mid: #1E3A8A;    /* Deep Navy Blue */
+    --blue-light: #1E40AF;  /* Deep Royal Blue */
     --glow-blue: 0 0 24px rgba(30, 58, 138, 0.2), 0 0 48px rgba(30, 58, 138, 0.08);
 
-    --accent: #0891B2;
+    --accent: #1E3A8A;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
