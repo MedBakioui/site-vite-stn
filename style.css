@@ -62,8 +62,13 @@
     --ink-line: rgba(30, 58, 138, 0.12);
     --ink-line-strong: rgba(30, 58, 138, 0.25);
 
+    /* Premium high-contrast cyan/sky-blue for perfect light mode readability */
+    --cyan: #0E7490;
+    --cyan-bright: #0369A1;
+    --cyan-glow: rgba(14, 116, 144, 0.22);
+    --glow-cyan: 0 0 24px rgba(14, 116, 144, 0.25), 0 0 48px rgba(14, 116, 144, 0.12);
+
     --accent: #0891B2;
-    --cyan-glow: rgba(8, 145, 178, 0.25);
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
