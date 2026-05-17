@@ -132,8 +132,8 @@
                 meta.className = 'mobile-menu-meta';
                 meta.innerHTML = `
                     <div>// Transports Naceur · Ets. 1973</div>
-                    <div><a href="tel:+212522334455">+212 5 22 33 44 55</a></div>
-                    <div><a href="mailto:contact@transport-naceur.ma">contact@transport-naceur.ma</a></div>
+                    <div><a href="tel:+212522747647">+212 5 22 74 76 47</a></div>
+                    <div><a href="mailto:contact@stn.ma">contact@stn.ma</a></div>
                 `;
                 overlay.appendChild(meta);
 
