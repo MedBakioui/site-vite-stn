@@ -68,6 +68,12 @@
     --cyan-glow: rgba(14, 116, 144, 0.22);
     --glow-cyan: 0 0 24px rgba(14, 116, 144, 0.25), 0 0 48px rgba(14, 116, 144, 0.12);
 
+    /* Darker, rich premium blue palette for high contrast in light mode */
+    --blue: #1E3A8A;        /* Deep Navy Blue */
+    --blue-mid: #1E40AF;    /* Deep Royal Blue */
+    --blue-light: #2563EB;  /* Rich Accent Blue */
+    --glow-blue: 0 0 24px rgba(30, 58, 138, 0.2), 0 0 48px rgba(30, 58, 138, 0.08);
+
     --accent: #0891B2;
 }
 
