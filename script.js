@@ -278,7 +278,7 @@
             ? 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png'
             : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
 
-        const map = L.map('leaflet-map', { scrollWheelZoom: false, zoomControl: true }).setView([31.7917, -7.0926], 6);
+        const map = L.map('leaflet-map', { scrollWheelZoom: false, zoomControl: true }).setView([28.5, -9.5], 5);
 
         L.tileLayer(tileUrl, {
             attribution: '&copy; OpenStreetMap &copy; CARTO',
@@ -295,7 +295,9 @@
             { name: 'Oujda', lat: 34.6814, lng: -1.9086 },
             { name: 'Ouarzazate', lat: 30.9189, lng: -6.8934 },
             { name: 'Meknès', lat: 33.8935, lng: -5.5473 },
-            { name: 'Kénitra', lat: 34.2610, lng: -6.5802 }
+            { name: 'Kénitra', lat: 34.2610, lng: -6.5802 },
+            { name: 'Laâyoune', lat: 27.1500, lng: -13.2000 },
+            { name: 'Dakhla', lat: 23.6848, lng: -15.9580 }
         ];
 
         cities.forEach((city) => {
