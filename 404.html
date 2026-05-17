@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page introuvable — Transport Naceur</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#07080C">
+    <link rel="icon" type="image/png" sizes="32x32" href="Gemini_Generated_Image_twog1rtwog1rtwog.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Gemini_Generated_Image_twog1rtwog1rtwog.png">
+
+    <!-- Resource hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+
+    <!-- Theme bootstrap -->
+    <script>
+        (function () {
+            try {
+                var saved = localStorage.getItem('stn-theme');
+                var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+                if ((saved || (prefersLight ? 'light' : 'dark')) === 'light') {
+                    document.documentElement.setAttribute('data-theme', 'light');
+                }
+            } catch (e) {}
+        })();
+    </script>
+
+    <!-- Critical CSS -->
+    <link rel="stylesheet" href="style-v2.css">
+
+    <!-- Fonts: non-blocking -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+
+    <!-- Font Awesome: async -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+    <style>
+        body { display: flex; flex-direction: column; min-height: 100vh; }
+        .err-wrap { flex: 1; display: flex; align-items: center; justify-content: center; padding: 120px 24px 80px; text-align: center; }
+        .err-content { max-width: 560px; }
+        .err-code { font-family: var(--font-mono); font-size: clamp(80px, 16vw, 180px); font-weight: 700; line-height: 1; letter-spacing: -0.05em; background: linear-gradient(120deg, var(--primary), var(--accent)); -webkit-background-clip: text; background-clip: text; color: transparent; margin: 0 0 16px; }
+        .err-tag { display: inline-block; padding: 6px 14px; background: var(--accent-soft); color: var(--accent); font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 999px; margin-bottom: 20px; font-family: var(--font-mono); }
+        .err-title { font-size: clamp(28px, 4vw, 40px); font-weight: 700; letter-spacing: -0.02em; line-height: 1.15; margin: 0 0 16px; }
+        .err-sub { color: var(--text-dim); font-size: 16px; margin: 0 0 36px; line-height: 1.6; }
+        .err-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+        .err-orbit { position: fixed; top: 50%; left: 50%; width: 120vh; height: 120vh; border: 1px solid rgba(45,212,191,0.08); border-radius: 50%; transform: translate(-50%, -50%); pointer-events: none; z-index: -1; }
+        .err-orbit::before { content: ''; position: absolute; top: 0; left: 50%; width: 12px; height: 12px; background: var(--primary); border-radius: 50%; transform: translateX(-50%); box-shadow: 0 0 30px var(--primary-glow); animation: orbit 12s linear infinite; transform-origin: 0 60vh; }
+        @keyframes orbit { from { transform: translateX(-50%) rotate(0deg); } to { transform: translateX(-50%) rotate(360deg); } }
+    </style>
+</head>
+<body>
+
+<div class="grid-bg" aria-hidden="true"></div>
+<div class="noise" aria-hidden="true"></div>
+<div class="err-orbit" aria-hidden="true"></div>
+
+<header id="header" class="scrolled">
+    <div class="header-inner">
+        <a href="index.html" class="brand">
+            <img src="Gemini_Generated_Image_twog1rtwog1rtwog.png" alt="Transport Naceur" class="brand-logo">
+            <span class="brand-text">Transport <span class="brand-text-accent">Naceur</span></span>
+        </a>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Basculer le thème" style="margin-left: auto;">
+            <i class="fas fa-sun icon-sun" aria-hidden="true"></i>
+            <i class="fas fa-moon icon-moon" aria-hidden="true"></i>
+        </button>
+        <a href="index.html#contact" class="header-cta">
+            <span>Contact</span>
+            <i class="fas fa-arrow-right"></i>
+        </a>
+        <button class="mobile-toggle" aria-label="Menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<main class="err-wrap">
+    <div class="err-content">
+        <div class="err-code">404</div>
+        <span class="err-tag">Page introuvable</span>
+        <h1 class="err-title">Cette route n'existe pas sur notre carte.</h1>
+        <p class="err-sub">
+            La page que vous cherchez a été déplacée, supprimée, ou n'a jamais existé.
+            Pas d'inquiétude — notre flotte sait toujours retrouver son chemin.
+        </p>
+        <div class="err-actions">
+            <a href="index.html" class="btn btn-primary">
+                <i class="fas fa-home"></i>
+                <span>Retour à l'accueil</span>
+            </a>
+            <a href="index.html#contact" class="btn btn-ghost">
+                <span>Nous contacter</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-bottom" style="border: none; padding-top: 0;">
+            <p>&copy; 2026 Transport Naceur. Tous droits réservés.</p>
+            <div class="footer-legal">
+                <a href="mentions-legales.html">Mentions légales</a>
+                <a href="confidentialite.html">Confidentialité</a>
+                <a href="certifications.html">Certifications ADR</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="script-v2.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "stn-site",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "3000", "--directory", "E:\\@@Dossier-Travaille\\STN\\export"],
+      "port": 3000
+    }
+  ]
+}

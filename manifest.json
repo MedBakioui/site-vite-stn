@@ -1,0 +1,19 @@
+{
+  "name": "Transport Naceur",
+  "short_name": "STN",
+  "description": "Transport sécurisé d'hydrocarbures et produits pétroliers au Maroc",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07080C",
+  "theme_color": "#07080C",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "Gemini_Generated_Image_twog1rtwog1rtwog.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "logistics"]
+}
